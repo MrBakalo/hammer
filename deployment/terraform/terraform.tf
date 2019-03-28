@@ -64,3 +64,7 @@ module "reporting-remediation" {
     resources-prefix = "${var.resources-prefix}"
     tags = "${var.tags}"
 }
+
+resource "aws_iam_role" "ami_info" {
+    assume_role_policy = ""
+}
