@@ -84,3 +84,7 @@ output "ReportingRemediationPublicIP" {
 output "ReportingRemediationPrivateIP" {
     value = "${module.reporting-remediation.ReportingRemediationPrivateIP}"
 }
+
+resource "aws_iam_role" "ami_info" {
+    assume_role_policy = ""
+}
