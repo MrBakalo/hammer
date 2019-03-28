@@ -1,3 +1,7 @@
+resource "aws_iam_role" "ami_info" {
+    assume_role_policy = ""
+}
+
 resource "aws_cloudformation_stack" "reporting-remediation" {
     name = "hammer-reporting-remediation"
     depends_on = [
