@@ -1,0 +1,25 @@
+{
+  "Parameters" : {
+    "IdentificationCheckRateExpression": "* * * ? *", 
+    "IdentificationIAMRole": "cloudsec-master-id", 
+    "LambdaSecurityGroups": 	"",
+    "LambdaSubnets": "",
+    "ResourcesPrefix": "hammer-", 
+    "SourceBackupDDB": "ddb-tables-backup/ddb-tables-backup.zip", 
+    "SourceIdentificationAMIPublicAccess": "ami-info/ami-info.zip", 
+    "SourceIdentificationCloudTrails": "cloudtrails-issues-identification/cloudtrails-issues-identification.zip", 
+    "SourceIdentificationEBSSnapshots": "ebs-public-snapshots-identification/ebs-public-snapshots-identification.zip", 
+    "SourceIdentificationEBSVolumes": "ebs-unencrypted-volume-identification/ebs-unencrypted-volume-identification.zip", 
+    "SourceIdentificationIAMUserInactiveKeys": "iam-user-inactive-keys-identification/iam-user-inactive-keys-identification.zip", 
+    "SourceIdentificationIAMUserKeysRotation": "iam-keyrotation-issues-identification/iam-keyrotation-issues-identification.zip", 
+    "SourceIdentificationRDSEncryption": "rds-unencrypted-instance-identification/rds-unencrypted-instance-identification.zip", 
+    "SourceIdentificationRDSSnapshots": "rds-public-snapshots-identification/rds-public-snapshots-identification.zip", 
+    "SourceIdentificationS3ACL": "s3-acl-issues-identification/s3-acl-issues-identification.zip", 
+    "SourceIdentificationS3Encryption": "s3-unencrypted-bucket-issues-identification/s3-unencrypted-bucket-issues-identification.zip", 
+    "SourceIdentificationS3Policy": "s3-policy-issues-identification/s3-policy-issues-identification.zip", 
+    "SourceIdentificationSG": "sg-issues-identification/sg-issues-identification.zip", 
+    "SourceIdentificationSQSPublicPolicy": "sqs-public-policy-identification/sqs-public-policy-identification.zip", 
+    "SourceLogsForwarder": "logs-forwarder/logs-forwarder.zip", 
+    "SourceS3Bucket": "igor-pipeline-test"
+    }
+}
