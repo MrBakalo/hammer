@@ -20,6 +20,15 @@
     "SourceIdentificationSG": "sg-issues-identification/sg-issues-identification.zip", 
     "SourceIdentificationSQSPublicPolicy": "sqs-public-policy-identification/sqs-public-policy-identification.zip", 
     "SourceLogsForwarder": "logs-forwarder/logs-forwarder.zip", 
-    "SourceS3Bucket": "igor-pipeline-test"
+    "SourceS3Bucket": "igor-pipeline-test",
+    "SourceIdentificationECSExternalImageSource": "ecs-external-image-source-issues-identification/ecs-external-image-source-issues-identification.zip",
+    "SourceIdentificationECSLogging": "ecs-logging-issues-identification/ecs-logging-issues-identification.zip",
+    "SourceIdentificationECSPrivilegedAccess": "ecs-privileged-access-issues-identification/ecs-privileged-access-issues-identification.zip",
+    "SourceIdentificationElasticSearchEncryption": "elasticsearch-unencrypted-domain-identification/elasticsearch-unencrypted-domain-identification.zip",
+    "SourceIdentificationElasticSearchLogging": "elasticsearch-domain-logging-issues-identification/elasticsearch-domain-logging-issues-identification.zip",
+    "SourceIdentificationElasticSearchPublicAccess": "elasticsearch-public-access-domain-identification/elasticsearch-public-access-domain-identification.zip",
+    "SourceIdentificationRedshiftClusterEncryption": "redshift-unencrypted-cluster-identification/redshift-unencrypted-cluster-identification.zip",
+    "SourceIdentificationRedshiftLogging": "redshift-audit-logging-issues-identification/redshift-audit-logging-issues-identification.zip",
+    "SourceIdentificationRedshiftPublicAccess": "redshift-cluster-public-access-identification/redshift-cluster-public-access-identification.zip"
     }
 }
