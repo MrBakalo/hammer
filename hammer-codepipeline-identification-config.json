@@ -29,6 +29,7 @@
     "SourceIdentificationElasticSearchPublicAccess": "elasticsearch-public-access-domain-identification/elasticsearch-public-access-domain-identification.zip",
     "SourceIdentificationRedshiftClusterEncryption": "redshift-unencrypted-cluster-identification/redshift-unencrypted-cluster-identification.zip",
     "SourceIdentificationRedshiftLogging": "redshift-audit-logging-issues-identification/redshift-audit-logging-issues-identification.zip",
-    "SourceIdentificationRedshiftPublicAccess": "redshift-cluster-public-access-identification/redshift-cluster-public-access-identification.zip"
+    "SourceIdentificationRedshiftPublicAccess": "redshift-cluster-public-access-identification/redshift-cluster-public-access-identification.zip",
+    "NestedStackTemplate": "s3://igor-pipeline-test/identification-nested.json"
     }
 }
