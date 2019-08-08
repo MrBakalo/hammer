@@ -30,6 +30,6 @@
     "SourceIdentificationRedshiftClusterEncryption": "redshift-unencrypted-cluster-identification/redshift-unencrypted-cluster-identification.zip",
     "SourceIdentificationRedshiftLogging": "redshift-audit-logging-issues-identification/redshift-audit-logging-issues-identification.zip",
     "SourceIdentificationRedshiftPublicAccess": "redshift-cluster-public-access-identification/redshift-cluster-public-access-identification.zip",
-    "NestedStackTemplate": "s3://igor-pipeline-test/identification-nested.json"
+    "NestedStackTemplate": "https://igor-pipeline-test.s3-us-west-1.amazonaws.com/identification-nested.json"
     }
 }
